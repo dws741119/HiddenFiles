@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445D438C1846FFB000B687CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D438B1846FFB000B687CF /* Cocoa.framework */; };
+		445D43961846FFB000B687CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 445D43941846FFB000B687CF /* InfoPlist.strings */; };
+		445D43981846FFB000B687CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D43971846FFB000B687CF /* main.m */; };
+		445D439C1846FFB000B687CF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 445D439A1846FFB000B687CF /* Credits.rtf */; };
+		445D439F1846FFB000B687CF /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D439E1846FFB000B687CF /* APLAppDelegate.m */; };
+		445D43A21846FFB000B687CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445D43A01846FFB000B687CF /* MainMenu.xib */; };
+		445D43A41846FFB000B687CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445D43A31846FFB000B687CF /* Images.xcassets */; };
+		445D43AB1846FFB000B687CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D43AA1846FFB000B687CF /* XCTest.framework */; };
+		445D43AC1846FFB000B687CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D438B1846FFB000B687CF /* Cocoa.framework */; };
+		445D43B41846FFB000B687CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 445D43B21846FFB000B687CF /* InfoPlist.strings */; };
+		445D43B61846FFB000B687CF /* HiddenFilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D43B51846FFB000B687CF /* HiddenFilesTests.m */; };
+		445D43DD184725A400B687CF /* icon_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 445D43DC184725A400B687CF /* icon_512x512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445D43AD1846FFB000B687CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D43801846FFB000B687CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445D43871846FFB000B687CF;
+			remoteInfo = HiddenFiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		445D43881846FFB000B687CF /* HiddenFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiddenFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445D438B1846FFB000B687CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		445D438E1846FFB000B687CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		445D438F1846FFB000B687CF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		445D43901846FFB000B687CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		445D43931846FFB000B687CF /* HiddenFiles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiddenFiles-Info.plist"; sourceTree = "<group>"; };
+		445D43951846FFB000B687CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		445D43971846FFB000B687CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		445D43991846FFB000B687CF /* HiddenFiles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiddenFiles-Prefix.pch"; sourceTree = "<group>"; };
+		445D439B1846FFB000B687CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		445D439D1846FFB000B687CF /* APLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APLAppDelegate.h; sourceTree = "<group>"; };
+		445D439E1846FFB000B687CF /* APLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLAppDelegate.m; sourceTree = "<group>"; };
+		445D43A11846FFB000B687CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		445D43A31846FFB000B687CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		445D43A91846FFB000B687CF /* HiddenFilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenFilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		445D43AA1846FFB000B687CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		445D43B11846FFB000B687CF /* HiddenFilesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiddenFilesTests-Info.plist"; sourceTree = "<group>"; };
+		445D43B31846FFB000B687CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		445D43B51846FFB000B687CF /* HiddenFilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HiddenFilesTests.m; path = HiddenFilesTests/HiddenFilesTests.m; sourceTree = SOURCE_ROOT; };
+		445D43DC184725A400B687CF /* icon_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_512x512.png; path = ../../../../Desktop/icon_512x512.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445D43851846FFB000B687CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D438C1846FFB000B687CF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D43A61846FFB000B687CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D43AC1846FFB000B687CF /* Cocoa.framework in Frameworks */,
+				445D43AB1846FFB000B687CF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445D437F1846FFB000B687CF = {
+			isa = PBXGroup;
+			children = (
+				445D43911846FFB000B687CF /* HiddenFiles */,
+				445D43AF1846FFB000B687CF /* HiddenFilesTests */,
+				445D438A1846FFB000B687CF /* Frameworks */,
+				445D43891846FFB000B687CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445D43891846FFB000B687CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445D43881846FFB000B687CF /* HiddenFiles.app */,
+				445D43A91846FFB000B687CF /* HiddenFilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445D438A1846FFB000B687CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				445D438B1846FFB000B687CF /* Cocoa.framework */,
+				445D43AA1846FFB000B687CF /* XCTest.framework */,
+				445D438D1846FFB000B687CF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		445D438D1846FFB000B687CF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				445D438E1846FFB000B687CF /* AppKit.framework */,
+				445D438F1846FFB000B687CF /* CoreData.framework */,
+				445D43901846FFB000B687CF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		445D43911846FFB000B687CF /* HiddenFiles */ = {
+			isa = PBXGroup;
+			children = (
+				445D439D1846FFB000B687CF /* APLAppDelegate.h */,
+				445D439E1846FFB000B687CF /* APLAppDelegate.m */,
+				445D43A01846FFB000B687CF /* MainMenu.xib */,
+				445D43A31846FFB000B687CF /* Images.xcassets */,
+				445D43921846FFB000B687CF /* Supporting Files */,
+			);
+			path = HiddenFiles;
+			sourceTree = "<group>";
+		};
+		445D43921846FFB000B687CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445D43DC184725A400B687CF /* icon_512x512.png */,
+				445D43B51846FFB000B687CF /* HiddenFilesTests.m */,
+				445D43931846FFB000B687CF /* HiddenFiles-Info.plist */,
+				445D43941846FFB000B687CF /* InfoPlist.strings */,
+				445D43971846FFB000B687CF /* main.m */,
+				445D43991846FFB000B687CF /* HiddenFiles-Prefix.pch */,
+				445D439A1846FFB000B687CF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445D43AF1846FFB000B687CF /* HiddenFilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				445D43B01846FFB000B687CF /* Supporting Files */,
+			);
+			path = HiddenFilesTests;
+			sourceTree = "<group>";
+		};
+		445D43B01846FFB000B687CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445D43B11846FFB000B687CF /* HiddenFilesTests-Info.plist */,
+				445D43B21846FFB000B687CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445D43871846FFB000B687CF /* HiddenFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445D43B91846FFB000B687CF /* Build configuration list for PBXNativeTarget "HiddenFiles" */;
+			buildPhases = (
+				445D43841846FFB000B687CF /* Sources */,
+				445D43851846FFB000B687CF /* Frameworks */,
+				445D43861846FFB000B687CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiddenFiles;
+			productName = HiddenFiles;
+			productReference = 445D43881846FFB000B687CF /* HiddenFiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		445D43A81846FFB000B687CF /* HiddenFilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445D43BC1846FFB000B687CF /* Build configuration list for PBXNativeTarget "HiddenFilesTests" */;
+			buildPhases = (
+				445D43A51846FFB000B687CF /* Sources */,
+				445D43A61846FFB000B687CF /* Frameworks */,
+				445D43A71846FFB000B687CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445D43AE1846FFB000B687CF /* PBXTargetDependency */,
+			);
+			name = HiddenFilesTests;
+			productName = HiddenFilesTests;
+			productReference = 445D43A91846FFB000B687CF /* HiddenFilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445D43801846FFB000B687CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Danieltien;
+				TargetAttributes = {
+					445D43A81846FFB000B687CF = {
+						TestTargetID = 445D43871846FFB000B687CF;
+					};
+				};
+			};
+			buildConfigurationList = 445D43831846FFB000B687CF /* Build configuration list for PBXProject "HiddenFiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 445D437F1846FFB000B687CF;
+			productRefGroup = 445D43891846FFB000B687CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445D43871846FFB000B687CF /* HiddenFiles */,
+				445D43A81846FFB000B687CF /* HiddenFilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445D43861846FFB000B687CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D43961846FFB000B687CF /* InfoPlist.strings in Resources */,
+				445D43A41846FFB000B687CF /* Images.xcassets in Resources */,
+				445D439C1846FFB000B687CF /* Credits.rtf in Resources */,
+				445D43A21846FFB000B687CF /* MainMenu.xib in Resources */,
+				445D43DD184725A400B687CF /* icon_512x512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D43A71846FFB000B687CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D43B41846FFB000B687CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445D43841846FFB000B687CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D439F1846FFB000B687CF /* APLAppDelegate.m in Sources */,
+				445D43981846FFB000B687CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D43A51846FFB000B687CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D43B61846FFB000B687CF /* HiddenFilesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445D43AE1846FFB000B687CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445D43871846FFB000B687CF /* HiddenFiles */;
+			targetProxy = 445D43AD1846FFB000B687CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		445D43941846FFB000B687CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445D43951846FFB000B687CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		445D439A1846FFB000B687CF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445D439B1846FFB000B687CF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		445D43A01846FFB000B687CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445D43A11846FFB000B687CF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		445D43B21846FFB000B687CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445D43B31846FFB000B687CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445D43B71846FFB000B687CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		445D43B81846FFB000B687CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		445D43BA1846FFB000B687CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenFiles/HiddenFiles-Prefix.pch";
+				INFOPLIST_FILE = "HiddenFiles/HiddenFiles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		445D43BB1846FFB000B687CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenFiles/HiddenFiles-Prefix.pch";
+				INFOPLIST_FILE = "HiddenFiles/HiddenFiles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		445D43BD1846FFB000B687CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiddenFiles.app/Contents/MacOS/HiddenFiles";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenFiles/HiddenFiles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HiddenFilesTests/HiddenFilesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		445D43BE1846FFB000B687CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiddenFiles.app/Contents/MacOS/HiddenFiles";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenFiles/HiddenFiles-Prefix.pch";
+				INFOPLIST_FILE = "HiddenFilesTests/HiddenFilesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445D43831846FFB000B687CF /* Build configuration list for PBXProject "HiddenFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D43B71846FFB000B687CF /* Debug */,
+				445D43B81846FFB000B687CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445D43B91846FFB000B687CF /* Build configuration list for PBXNativeTarget "HiddenFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D43BA1846FFB000B687CF /* Debug */,
+				445D43BB1846FFB000B687CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		445D43BC1846FFB000B687CF /* Build configuration list for PBXNativeTarget "HiddenFilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D43BD1846FFB000B687CF /* Debug */,
+				445D43BE1846FFB000B687CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 445D43801846FFB000B687CF /* Project object */;
+}
